@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  min-height: 100vh;
+  background: #ffffff;
+  flex-direction: column;
+}
+
+/* Main container styling */
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.2s;
+  width: 600px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+}
+
+input {
+  padding: 10px;
+}
